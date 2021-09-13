@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>Name</key>
+            <string>OpenDNS FamilyShield over HTTPS</string>
+            <key>PayloadDescription</key>
+            <string>Configures device to use OpenDNS FamilyShield over HTTPS.</string>
+            <key>PayloadDisplayName</key>
+            <string>OpenDNS FamilyShield(HTTPS)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.84387a24-b248-484d-a7d9-b89b95e7972a</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>84387a24-b248-484d-a7d9-b89b95e7972a</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerAddresses</key>
+                    <array>
+                        <string>208.67.222.123</string>
+                        <string>208.67.220.123</string>
+                    </array>
+                <key>ServerURL</key>
+                <string>https://doh.familyshield.opendns.com/dns-query</string>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Adds OpenDNS FamilyShield to macOS 11 Big Sur and iOS 14 or newer systems.</string>
+    <key>PayloadDisplayName</key>
+    <string>OpenDNS FamilyShield(HTTPS)</string>
+    <key>PayloadIdentifier</key>
+    <string>5f4f1c9d-9b81-4fb9-880d-7452cfa14595</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>28e0fcfe-c725-4596-a310-9afb6e801020</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

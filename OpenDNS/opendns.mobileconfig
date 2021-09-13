@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>Name</key>
+            <string>OpenDNS over HTTPS</string>
+            <key>PayloadDescription</key>
+            <string>Configures device to use OpenDNS over HTTPS.</string>
+            <key>PayloadDisplayName</key>
+            <string>OpenDNS(HTTPS)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.a792fa88-3c92-402c-8027-11a323e96e99</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>a792fa88-3c92-402c-8027-11a323e96e99</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerAddresses</key>
+                    <array>
+                        <string>208.67.222.222</string>
+                        <string>208.67.220.220</string>
+                    </array>
+                <key>ServerURL</key>
+                <string>https://doh.opendns.com/dns-query</string>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Adds OpenDNS to macOS 11 Big Sur and iOS 14 or newer systems.</string>
+    <key>PayloadDisplayName</key>
+    <string>OpenDNS(HTTPS)</string>
+    <key>PayloadIdentifier</key>
+    <string>6edab227-05aa-4ca5-af8c-9b72c9e2ba48</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>bc8b5a90-1609-4607-8402-fce06372aa4b</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
