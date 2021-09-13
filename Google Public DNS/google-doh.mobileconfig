@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>Name</key>
+            <string>Google Public DNS over HTTPS</string>
+            <key>PayloadDescription</key>
+            <string>Configures device to use Google Public DNS over HTTPS.</string>
+            <key>PayloadDisplayName</key>
+            <string>Google Public DNS(HTTPS)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.b9dfd18e-2cbd-4413-a96d-bb780a3badb8</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>b9dfd18e-2cbd-4413-a96d-bb780a3badb8</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerAddresses</key>
+                    <array>
+                        <string>2001:4860:4860::8888</string>
+                        <string>2001:4860:4860::8844</string>
+                        <string>8.8.8.8</string>
+                        <string>8.8.4.4</string>
+                    </array>
+                <key>ServerURL</key>
+                <string>https://dns.google/dns-query</string>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Adds Google Public DNS to macOS 11 Big Sur and iOS 14 or newer systems.</string>
+    <key>PayloadDisplayName</key>
+    <string>Google Public DNS(HTTPS)</string>
+    <key>PayloadIdentifier</key>
+    <string>7ea1a0e5-44b7-4452-8df7-af2d8daa4cf9</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>3621cb46-cd68-4c02-a6a6-a23b4faaea69</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
