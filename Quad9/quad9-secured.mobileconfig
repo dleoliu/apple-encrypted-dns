@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>Name</key>
+            <string>Quad9 Secured DNS over HTTPS</string>
+            <key>PayloadDescription</key>
+            <string>Configures device to use Quad9 Secured DNS over HTTPS.</string>
+            <key>PayloadDisplayName</key>
+            <string>Quad9 Secured DNS(HTTPS)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.1581be3f-dd51-4b37-8d2d-73a9a7c58cc5</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>1581be3f-dd51-4b37-8d2d-73a9a7c58cc5</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerAddresses</key>
+                    <array>
+                        <string>2620:fe::9</string>
+                        <string>2620:fe::fe:9</string>
+                        <string>9.9.9.9</string>
+                        <string>149.112.112.9</string>
+                    </array>
+                <key>ServerURL</key>
+                <string>https://dns9.quad9.net/dns-query</string>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Adds Quad9 Secured DNS to macOS 11 Big Sur and iOS 14 or newer systems.</string>
+    <key>PayloadDisplayName</key>
+    <string>Quad9 Secured DNS(HTTPS)</string>
+    <key>PayloadIdentifier</key>
+    <string>8e6d62fd-a540-42ab-a9ca-71f29010ee37</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>3f253b87-408b-456a-9be9-19ebdbfef6c2</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
