@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>Name</key>
+            <string>Cloudflare DNS over HTTPS</string>
+            <key>PayloadDescription</key>
+            <string>Configures device to use Cloudflare DNS over HTTPS.</string>
+            <key>PayloadDisplayName</key>
+            <string>Cloudflare DNS(HTTPS)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.08f32bb5-6954-40ed-93c8-109970324cd5</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>08f32bb5-6954-40ed-93c8-109970324cd5</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerAddresses</key>
+                    <array>
+                        <string>2606:4700:4700::1111</string>
+                        <string>2606:4700:4700::1001</string>
+                        <string>1.1.1.1</string>
+                        <string>1.0.0.1</string>
+                    </array>
+                <key>ServerURL</key>
+                <string>https://cloudflare-dns.com/dns-query</string>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Adds Cloudflare DNS to macOS 11 Big Sur and iOS 14 or newer systems.</string>
+    <key>PayloadDisplayName</key>
+    <string>Cloudflare DNS(HTTPS)</string>
+    <key>PayloadIdentifier</key>
+    <string>0db8530d-9d57-4403-b922-272bb26c18b5</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>e0eed26f-192b-485a-bbd8-66423be59f4d</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

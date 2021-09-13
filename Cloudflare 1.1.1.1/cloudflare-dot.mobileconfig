@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>Name</key>
+            <string>Cloudflare DNS over TLS</string>
+            <key>PayloadDescription</key>
+            <string>Configures device to use Cloudflare DNS over TLS.</string>
+            <key>PayloadDisplayName</key>
+            <string>Cloudflare DNS(TLS)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.80e3af1c-a9ac-473c-b1a2-89175474ea5e</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>80e3af1c-a9ac-473c-b1a2-89175474ea5e</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>TLS</string>
+                <key>ServerAddresses</key>
+                    <array>
+                        <string>2606:4700:4700::1111</string>
+                        <string>2606:4700:4700::1001</string>
+                        <string>1.1.1.1</string>
+                        <string>1.0.0.1</string>
+                    </array>
+                <key>ServerName</key>
+                <string>cloudflare-dns.com</string>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Adds Cloudflare DNS to macOS 11 Big Sur and iOS 14 or newer systems.</string>
+    <key>PayloadDisplayName</key>
+    <string>Cloudflare DNS(TLS)</string>
+    <key>PayloadIdentifier</key>
+    <string>377602c8-1ac0-4dc0-b8d6-20bcfd5f58d2</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>ab987c17-d5c6-414e-9937-fe1e4760179c</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
